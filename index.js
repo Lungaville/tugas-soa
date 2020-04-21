@@ -3,7 +3,7 @@ const app = express();
 
 require('dotenv').config()
 conf = {
-    port: parseInt( process.env.DEPLOY_PORT) ,
+    port: parseInt( process.env.PORT) ,
 };
 
 app.get("", function (req, res) {
